@@ -1,0 +1,15 @@
+.{
+    .name = "clay test",
+    .version = "0.0.0",
+    .dependencies = .{
+        .@"clay-zig" = .{
+            .url = "git+https://codeberg.org/Zettexe/clay-zig#863eab4f75a265c394cf92c9f3bdb0576a847e09",
+            .hash = "12209cd729b20b6153546cbe079fb06cef522d595654315c646fb0b76967b20f0822",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
